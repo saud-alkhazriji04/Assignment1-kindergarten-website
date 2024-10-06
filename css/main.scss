@@ -1,0 +1,143 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap');
+
+:root {
+    --primary-color: #007af3
+}
+
+body {
+    background: #f2f2f2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background: white;
+    padding: 1em;
+
+    .logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+    .mobile-menu {
+        cursor: pointer;
+    }
+}
+
+a {
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.top-row {
+
+    .subhead {
+        text-transform: uppercase;
+        font-weight: normal;
+        color: black;
+        letter-spacing: 0.3em;
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-top: 0.2em;
+    }
+
+
+    .primary-cta {
+        background: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 0.7em;
+    }
+
+}
+
+.hero  {
+    padding: 0;
+    padding-bottom: 1em;
+    text-align: center;
+    background: #ffdd00;
+
+    .container .top-row {
+        position: relative;
+        text-align: center;
+        color: var(--primary-color);
+
+        img {
+            width: 100%;
+            min-height: 350px;
+            //filter: grayscale(50%);
+            //filter: brightness(90%);
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 1em;
+            //margin-left: 1em;
+        }
+    }
+
+    .bottom-row {
+        background: #ffdd00;
+        color: white;
+
+        h2 {
+            font-size: 2em;
+        }
+
+        img {
+            width: 100%;
+            max-width: 10em;
+        }
+        .activities-img-container {
+            padding: 1em;
+            img {
+                max-width: 130px;
+            }
+        }
+
+        p {
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        
+    }
+}
+
+
+

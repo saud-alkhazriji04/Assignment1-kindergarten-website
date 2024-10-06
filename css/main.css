@@ -1,1 +1,116 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap");
+:root {
+  --primary-color: #007af3 ;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+.navbar .logo span {
+  color: var(--primary-color);
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.top-row .subhead {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: black;
+  letter-spacing: 0.3em;
+  font-size: 1.1em;
+}
+.top-row h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+.top-row .primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0.7em;
+}
+
+.hero {
+  padding: 0;
+  padding-bottom: 1em;
+  text-align: center;
+  background: #ffdd00;
+}
+.hero .container .top-row {
+  position: relative;
+  text-align: center;
+  color: var(--primary-color);
+}
+.hero .container .top-row img {
+  width: 100%;
+  min-height: 350px;
+}
+.hero .container .top-row div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em;
+}
+.hero .bottom-row {
+  background: #ffdd00;
+  color: white;
+}
+.hero .bottom-row h2 {
+  font-size: 2em;
+}
+.hero .bottom-row img {
+  width: 100%;
+  max-width: 10em;
+}
+.hero .bottom-row .activities-img-container {
+  padding: 1em;
+}
+.hero .bottom-row .activities-img-container img {
+  max-width: 130px;
+}
+.hero .bottom-row p {
+  font-size: 1.1em;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
