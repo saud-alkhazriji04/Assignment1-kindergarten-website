@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap");
 :root {
-  --primary-color: #007af3 ;
+  --primary-color: #007af3;
+  --secondary-color: #ffdd00;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: #f2f2f2;
   margin: 0;
   font-family: "Poppins";
+  text-align: center;
 }
 
 .navbar {
@@ -75,7 +81,7 @@ section {
   padding: 0;
   padding-bottom: 1em;
   text-align: center;
-  background: #ffdd00;
+  background: var(--secondary-color);
 }
 .hero .container .top-row {
   position: relative;
@@ -94,7 +100,7 @@ section {
   padding: 1em;
 }
 .hero .bottom-row {
-  background: #ffdd00;
+  background: var(--secondary-color);
   color: white;
 }
 .hero .bottom-row h2 {
@@ -113,4 +119,55 @@ section {
 .hero .bottom-row p {
   font-size: 1.1em;
   font-weight: 600;
+}
+
+section.teachers-section {
+  border-bottom: 2px solid var(--primary-color);
+}
+section.teachers-section h2 {
+  font-size: 2em;
+}
+section.teachers-section p {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: black;
+  letter-spacing: 0.3em;
+  font-size: 1.1em;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 20px 0;
+  grid-gap: 20px;
+}
+section.teachers-section p:before, section.teachers-section p:after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid var(--primary-color);
+}
+section.teachers-section .container {
+  display: flex;
+  justify-content: center;
+}
+section.teachers-section ul {
+  margin-top: 3em;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+section.teachers-section ul li {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 2em 1em;
+  width: auto;
+  max-width: 20em;
+  margin: 3em 2em;
+  border-radius: 1em;
+}
+section.teachers-section ul li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
+  margin-top: -4.5em;
 }/*# sourceMappingURL=main.css.map */
