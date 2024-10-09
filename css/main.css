@@ -538,6 +538,7 @@ nav li a:hover {
   }
   section.program-section .program-header-container .program-header-left-col {
     padding: 7em;
+    padding-right: 15em;
     margin-right: 15em;
     margin-left: 10em;
     text-align: left;
@@ -547,6 +548,7 @@ nav li a:hover {
   }
   section.program-section .program-header-container .program-header-left-col p {
     font-size: 1.5em;
+    margin-right: 2em;
   }
 }
 @media only screen and (min-width: 1800px) {
