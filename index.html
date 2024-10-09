@@ -16,13 +16,13 @@
             <nav>
                 <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close navigation">
                 <ul class="primary-nav">
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
+                    <li class="current"><a href="#hero-section">Home</a></li>
+                    <li><a href="#features">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                 </ul>
 
                 <ul class="secondary-nav">
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
                     <li class="go-premium-cta"><a href="#">Portfolio</a></li>
                 </ul>
             </nav>
@@ -30,50 +30,59 @@
     </div>
 
     <section class="hero">
-        <div class="container">
+        <div class="container" id="hero-section">
             <div class="top-row">
                 <img src="images/kindergarten.jpg" alt="">
                 <div>
                     <h1>Welcome to <span>Sunshine</span> kindergarten</h1>
                     <p class="subhead">Your Children are Safe With Us!</p>
-                    <a href="#" class="primary-cta">Contact Us</a>                   
+                    <a href="#contact-section" class="primary-cta">Contact Us</a>                   
                 </div>
                 
             </div>
 
-            <div class="bottom-row">
+            <div class="bottom-row pad" id="features">
                 <div>
                     <h2>What We Offer</h2>
                 </div>
 
                 <div class="features-container">
-                    <div class="feature">
-                        <div class="img"><img src="images/diamond-svgrepo-com.svg" alt=""></div>
-                        <div><p>Proffesional Teachers</p></div>
-                    </div>
-                    <div class="feature">
-                        <div class="img activities-img-container"><img src="images/emoji-activities-svgrepo-com.svg" alt=""></div>
-                        <div><p>Activities</p></div>
-                    </div>
-                    <div class="feature">
-                        <div class="img"><img src="images/star-sharp-svgrepo-com.svg" alt=""></div>
-                        <div><p>Education Programm</p></div>
-                    </div>
-                    <div class="feature">
-                        <div class="img"><img src="images/newspaper-svgrepo-com.svg" alt=""></div>
-                        <div><p>Latest Events</p></div>
-                    </div>
+                    <a href="#teachers-section">
+                        <div class="feature">
+                            <div class="img"><img src="images/diamond-svgrepo-com.svg" alt=""></div>
+                            <div><p>Proffesional Teachers</p></div>
+                        </div>
+                    </a>
+                    <a href="#activities-section">
+                        <div class="feature">
+                            <div class="img activities-img-container"><img src="images/emoji-activities-svgrepo-com.svg" alt=""></div>
+                            <div><p>Activities</p></div>
+                        </div>
+                    </a>
+                    <a href="#program-section">
+                        <div class="feature">
+                            <div class="img"><img src="images/star-sharp-svgrepo-com.svg" alt=""></div>
+                            <div><p>Education Programm</p></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="feature">
+                            <div class="img"><img src="images/newspaper-svgrepo-com.svg" alt=""></div>
+                            <div><p>Latest Events</p></div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="teachers-section">
+    <section class="teachers-section pad">
+        <div  id="teachers-section"></div>
 
         <h2>Our Teachers</h2>
         <p>Qualifications</p>
 
-        <div class="container"></div>
+        <div class="container">
             <ul>
                 <li>
                     <img src="images/person.jpg" alt="person">
@@ -94,7 +103,8 @@
         </div>
     </section>
 
-    <section class="activities">
+    <section class="activities pad">
+        <div  id="activities-section"></div>
         <h2>Our Activities!</h2>
 
         <div class="activities-cards-container">
@@ -124,7 +134,7 @@
 
     </section>
 
-    <section class="program-section">
+    <section class="program-section pad" id="program-section">
 
         <div class="program-header-container">
             <div class="program-header-left-col">
@@ -162,7 +172,7 @@
 
             </div>
 
-            <div class="program-container">
+            <div class="program-container flex-reverse">
                 <div class="img-container">
                     <img src="images/images (1).jpg" alt="">
                 </div>
@@ -188,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="program-container">
+            <div class="program-container flex-reverse">
                 <div class="img-container">
                     <img src="images/Literacy_Games_-_5_Fun_Reading_Games_for_Kids.jpg" alt="">
                 </div>
@@ -204,8 +214,8 @@
         
     </section>
 
-    <section class="contact-section">
-        <div class="container">
+    <section class="contact-section pad">
+        <div class="container" id="contact-section">
             <div class="contact-left">
                 <h2>Contact</h2>
 
