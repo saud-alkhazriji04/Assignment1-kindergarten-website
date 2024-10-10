@@ -197,6 +197,13 @@ section.teachers-section ul li img {
   border-radius: 50%;
   margin-top: -4.5em;
 }
+section.teachers-section ul li:hover {
+  border: 10px solid var(--secondary-color);
+  max-width: 30em;
+}
+section.teachers-section ul li:hover blockquote {
+  font-size: 1.1em;
+}
 
 section.activities h2 {
   font-size: 2em;

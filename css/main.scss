@@ -43,7 +43,7 @@ body {
     }
     
     .container {
-        display: flex;
+        display: flex;      //------------FlexBox Requirment--------------
         place-content: space-between;
     }
 
@@ -95,7 +95,7 @@ section {
         margin-top: 0.7em;
         transition: all 0.5s ease;
 
-        &:hover {
+        &:hover {       //--------------Hover Requirment---------------//
             color: var(--primary-color);
             background: white;
             border: 5px solid var(--primary-color);
@@ -209,7 +209,7 @@ section.teachers-section {
     }
 
     .container {
-        display: flex;
+        display: flex;      //------------FlexBox Requirment--------------
         justify-content: center;
     }
 
@@ -237,6 +237,14 @@ section.teachers-section {
                 border-radius: 50%;
                 margin-top: -4.5em;
             }
+
+            &:hover {
+                border: 10px solid var(--secondary-color);
+                max-width: 30em;
+                blockquote {
+                    font-size: 1.1em;
+                }
+            }
         }
     }
 
@@ -259,7 +267,7 @@ section.activities {
     }
 
     .activities-cards-container {
-        display: flex;
+        display: flex;          //------------FlexBox Requirment--------------
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
@@ -477,6 +485,7 @@ nav {
     cursor: pointer;
 }
 
+//------------Respinsiveness Requirment--------------//
 
 //-------------media view(tablet)-------------------//
 
@@ -487,13 +496,13 @@ nav {
     }
 
     .navbar .container {
-        display: flex;
+        display: flex;          //------------FlexBox Requirment--------------
         //grid-template-columns: 180px auto;
         //justify-content: unset;
     }
 
     .navbar nav {
-        display: flex;
+        display: flex;          //------------FlexBox Requirment--------------
         justify-content: space-around;
         background: none;
         position: unset;
@@ -503,7 +512,7 @@ nav {
 
         ul {
             //flex: 1 1;
-            display: flex;
+            display: flex;      //------------FlexBox Requirment--------------
             justify-content: center;//this
         }
     
@@ -555,7 +564,7 @@ nav {
         .bottom-row {
 
             .features-container {
-                display: flex;
+                display: flex;      //------------FlexBox Requirment--------------
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: space-around;
@@ -587,7 +596,7 @@ nav {
         .programs {
 
             .program-container {
-                display: flex;
+                display: flex;      //------------FlexBox Requirment--------------
                 justify-content: space-around;
                 align-items: center;
                 margin-bottom: 5em;
@@ -659,7 +668,7 @@ nav {
     .navbar nav {
         justify-content: center;
         ul {
-            display: flex;
+            display: flex;      //------------FlexBox Requirment--------------
             justify-content: space-between;//this
             li {
                 margin: 0 2em;
